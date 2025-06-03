@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="Formulaire.css">
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <form action="#" method="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+          <label for="prénom">Prénom :</label>
+        <input type="text" id="prenom" name="prénom" required>
+          <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <label for="naissance">Naissance :</label>
+        <input type="date"  name="bday" required>
+        <label for="téléphone">Téléphone :</label>
+        <input type="tel"  name="usrtel" required>
+        <label>Sex:</label>
+        <input type="radio" id="female" name="sex" value="female" required >
+        <label for="male">Male</label>
+         <label>Sex:</label>
+        <input type="radio" id="female" name="sex" value="female" required >
+        <label for="female">Female</label>
+        <label for="nationalité">Nationalité</label>
+        <select id="nationalité" name="nationalité" required>
+            <option value="">choisissez votre nationalité</option>
+            <option value="Camerounais">Camerounais </option>
+            <option value="Baghdad">Baghdad</option>
+            <option value="Ghanéen">Ghanéen</option>
+            <option value="Kuala Lumpur">Kuala Lumpur</option>
+            <option value="Français">Français</option>          
+        </select>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="2" required ></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>    
+    </form>   
+</body>
+</html>
